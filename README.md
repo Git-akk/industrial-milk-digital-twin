@@ -32,7 +32,18 @@ The system simulates the biological and physical properties of dairy products us
   $$pH(t) = pH_{start} - k \cdot \ln(t + 1)$$
 * **Viscosity Growth:** Represented by an exponential function relative to pH levels:
   $$\eta(pH) = \eta_{base} + A \cdot e^{-B(pH - pH_{target})}$$
-
+  
+<table style="width:100%">
+  <tr>
+    <th>Real-time SCADA System</th>
+    <th>3D Surface Analysis</th>
+  </tr>
+  <tr>
+    <td><img src="<img width="1920" height="912" alt="Image" src="https://github.com/user-attachments/assets/f4a8b249-4e70-49b1-b55a-7bf8685a7137" />" width="100%"></td>
+    <td><img src="<img width="1918" height="921" alt="image" src="https://github.com/user-attachments/assets/6b88a4f2-2b42-43eb-b431-ec1627e6993d" />
+" width="100%"></td>
+  </tr>
+</table>
 ## 📈 Industry 4.0 Impact
 This system demonstrates how traditional food production can be optimized through:
 1. **Precision Timing:** Avoiding "over-fermentation" through predictive modeling.
